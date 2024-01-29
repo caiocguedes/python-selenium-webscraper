@@ -1,0 +1,12 @@
+- Critério de ruins -> clientes que pagaram após 30 dias
+- Critério de bons -> clientes que pagaram em menos de 30 dias
+- Testar com avaliação do Google e reclame aqui
+- Empresas fora dessas plataformas são ruins
+
+=================================
+Fluxo de execução do script:
+
+- Buscar CNPJ no cnpj.info
+- Dentro do cnpj.info buscar nome fantasia e endereço
+- Verificar se o CNPJ é MEI
+- Se não for, concatenar as duas variáveis e colar na busca do Google
